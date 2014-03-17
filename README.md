@@ -1017,7 +1017,7 @@ Contained exactly once by &lt;Listing&gt;.
   <tr>
     <td>Name</td>
     <td>String</td>
-    <td>Name of a neighborhood, town, or village.</td>
+    <td>Name of a neighborhood, island, town, or village.</td>
   </tr>
 </table>
 
