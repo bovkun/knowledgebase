@@ -23,8 +23,7 @@ This document is organized as follows:
 
 + Chapter 1 – Feed Development Guidelines Overview of the key aspects to consider before submitting your feed to LuxuryRealEstate.com.
 + Chapter 2 – Element Dictionary XML elements that are included within LuxuryRealEstate.com's data cycle.
-+ Chapter 3 – XML Feed Specification Template XML Template.
-+ Chapter 4 – Sample XML Feed Specification How a complete XML Listing Feed should look.
++ Chapter 3 – Sample XML Feed Specification How a complete XML Listing Feed should look.
    
 CHAPTER 1: Feed development guidelines
 --------------------------------------
@@ -1079,10 +1078,7 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
 
 
 
-CHAPTER 3: XML Feed Specification Template
-------------------------------------------
-
-CHAPTER 4 – Sample XML Feed
+CHAPTER 3 – Sample XML Feed
 ---------------------------
 
     <?xml version="1.0"?>
