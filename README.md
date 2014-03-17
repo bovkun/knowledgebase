@@ -121,7 +121,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <Address>
         See documentation for Address element.
       </Address>
-      <ListPrice commons:isgSecurityClass="Public" commons:currencyCode="USD">599000</ListPrice>
+      <ListPrice commons:isgSecurityClass="Public" commons:currencyCode="USD" commons:currencyPeriod="Week">599000</ListPrice>
       <ListingURL>http://www.realestatesite.com/listings/123123</ListingURL>
       <ProviderName>Springfield Real Estate, Inc.</ProviderName>
       <ProviderURL>http://www.realestatesite.com</ProviderURL>
@@ -182,7 +182,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ListPrice</td>
     <td>Integer</td>
-    <td>Unformatted numerical list price for the property. commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.</td>
+    <td>Unformatted numerical list price for the property.<br />commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.<br />The currencyPeriod attribute is optional and contains either the value "Daily", "Weekly" or "Monthly" to indicates that the price is repeated at the frequency indicated. The abscence of the attribute indicates a one-time payment. If the property is a rental and the currencyPeriod is set to "Monthly", it is considered a residential long term rental. If the listing is a rental and currencyPeriod is set to either "Daily" or "Weekly", it is considered a Vacation Rental.</td>
   </tr>
   <tr>
     <td>ListingURL</td>
