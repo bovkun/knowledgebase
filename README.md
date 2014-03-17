@@ -1017,7 +1017,7 @@ Contained exactly once by &lt;Listing&gt;.
   <tr>
     <td>Name</td>
     <td>String</td>
-    <td>Name of a neighborhood, island, town, or village.</td>
+    <td>Name of the neighborhood the listings is in. This value can contain the name of an island, burrough or similar where the listing is located in a geographical area that doesn't fit to include elsewhere.</td>
   </tr>
 </table>
 
