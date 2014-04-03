@@ -304,7 +304,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ListingDescription</td>
     <td>String</td>
-    <td>Description of the listing.</td>
+    <td>Unformatted description of the listing. HTML will be stripped out.</td>
   </tr>
   <tr>
     <td>LivingArea</td>
