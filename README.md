@@ -1,7 +1,7 @@
 LUXRE XML Feed Development Guidelines
 =====================================
 
-__Version 1.0: Last Updated 1/10/14__
+__Version 1.0: Last Updated 4/3/14__
 
 
 PREFACE
@@ -657,7 +657,7 @@ Contained one or many times by &lt;Photos&gt;.
       <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
       <MediaURL>http://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png</MediaURL>
       <MediaCaption>Wine cellar fits 1,500 bottles.</MediaCaption>
-      <MediaDescription>Wine Cellar</MediaCaption>
+      <MediaDescription>Wine Cellar</MediaDescription>
     </Photo>
 
 <table width="100%">
@@ -1116,25 +1116,25 @@ CHAPTER 3 – Sample XML Feed
             <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png</MediaURL>
             <MediaCaption>Exterior showing overview.</MediaCaption>
-            <MediaDescription>Exterior</MediaCaption>
+            <MediaDescription>Exterior</MediaDescription>
           </Photo>
           <Photo>
             <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://www.blogcdn.com/www.parentdish.co.uk/media/2011/05/parentdish-best-dads-homer-simpson-rex-590mt200511.jpg</MediaURL>
             <MediaCaption>Perfect couch for watching fottball.</MediaCaption>
-            <MediaDescription>Living Room</MediaCaption>
+            <MediaDescription>Living Room</MediaDescription>
           </Photo>
           <Photo>
             <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://i.dailymail.co.uk/i/pix/2013/12/21/article-2527254-1A3BFD0A00000578-904_634x377.jpg</MediaURL>
             <MediaCaption>Ideal space for family time.</MediaCaption>
-            <MediaDescription>Living Room</MediaCaption>
+            <MediaDescription>Living Room</MediaDescription>
           </Photo>
           <Photo>
             <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://stuffpoint.com/the-simpsons/image/312601-the-simpsons-simpsons-house-interior.jpg</MediaURL>
             <MediaCaption>Overview of floor plan.</MediaCaption>
-            <MediaDescription>Floor Plan</MediaCaption>
+            <MediaDescription>Floor Plan</MediaDescription>
           </Photo>
         </Photos>
         <DiscloseAddress>true</DiscloseAddress>
