@@ -1,7 +1,7 @@
 LUXRE XML Feed Development Guidelines
 =====================================
 
-__Version 1.0: Last Updated 4/3/14__
+__Version 1.0: Last Updated 4/7/14__
 
 
 PREFACE
@@ -601,7 +601,7 @@ Contained exactly once by &lt;Listing&gt;, &lt;Brokerage&gt; and &lt;Office&gt;.
   </tr>
   <tr>
     <td>commons:Country</td>
-    <td>Integer</td>
+    <td>String</td>
     <td>Two digit country code as specified by <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO-3166-1 Alpha-2</td>.
   </tr>
 </table>
