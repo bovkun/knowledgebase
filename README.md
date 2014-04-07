@@ -309,7 +309,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>LivingArea</td>
     <td>Integer</td>
-    <td>Unformatted number with total livable area of the listed property. Attribute areaUnit must be one of following values:
+    <td>Unformatted number with total livable area of the listed property. Attribute areaUnits must be one of following values:
       <ul>
         <li>acre</li>
         <li>hectare</li>
