@@ -1,7 +1,7 @@
 LUXRE XML Feed Development Guidelines
 =====================================
 
-__Version 1.0: Last Updated 4/7/14__
+__Version 1.0: Last Updated 5/5/14__
 
 
 PREFACE
@@ -131,7 +131,6 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <PropertyType otherDescription="Residential">Residential</PropertyType>
       <PropertySubType otherDescription="Single Family Residence">Single Family Detached</PropertySubType>
       <MlsNumber>123456789</MlsNumber>
-      <ListingKey>OURPREFIX-123456789</ListingKey>
       <ListingCategory>Purchase</ListingCategory>
       <ListingStatus>Active</ListingStatus>
       <MarketingInformation>
@@ -275,12 +274,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>MlsNumber</td>
     <td>String</td>
-    <td>In the US and Canada, it is the listing MLS number. In any other country or in markets witout an MLS, it is a unique listing identifier within the scope of the originating data source.</td>
-  </tr>
-  <tr>
-    <td>ListingKey</td>
-    <td>String</td>
-    <td>Compound value made up from your unique LUXRE account token, a dash, and the value from MlsNumber. Inquire with websupport@luxre.com if you don't know what your unique LUXRE token is.</td>
+    <td>In the US and Canada, it is the listing MLS number. In any other country or in markets witout an MLS, it is a unique listing identifier that you have given it that the listing will consistently have on each submission.</td>
   </tr>
   <tr>
     <td>ListingCategory</td>
@@ -1103,7 +1097,6 @@ CHAPTER 3 – Sample XML Feed
         <Bathrooms>2</Bathrooms>
         <PropertyType otherDescription="Residential">Residential</PropertyType>
         <PropertySubType otherDescription="Single Family Residence">Single Family Detached</PropertySubType>
-        <ListingKey>OURPREFIX-123456789</ListingKey>
         <ListingCategory>Purchase</ListingCategory>
         <ListingStatus>Active</ListingStatus>
         <MarketingInformation>
