@@ -129,7 +129,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <Bedrooms>3</Bedrooms>
       <Bathrooms>2</Bathrooms>
       <PropertyType otherDescription="Residential">Residential</PropertyType>
-      <PropertySubType otherDescription="Single Family Residence">Single Family Detached</PropertySubType>
+      <PropertySubType otherDescription="Chateau">Other</PropertySubType>
       <MlsNumber>123456789</MlsNumber>
       <ListingCategory>Purchase</ListingCategory>
       <ListingStatus>Active</ListingStatus>
@@ -269,6 +269,14 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
         <li>Townhouse</li>
         <li>Triplex</li>
       </ul>
+      <p>In addition, LuxuryRealEstate.com support three property types not covered by the RETS Syndication Format. Those three property types are:</p>
+      <ul>
+        <li>Chateau</li>
+        <li>Estate</li>
+        <li>Villa</li>
+      </ul>
+      <p>In order to specify one of these property types, use the PropertySubType "Other" and populate otherDescription with one of these three values. For example:</p>
+      <p><pre>&lt;PropertySubType otherDescription="Chateau"&gt;Other&lt;/PropertySubType&gt;</pre></p>
     </td>
   </tr>
   <tr>
