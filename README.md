@@ -1,7 +1,7 @@
 LUXRE XML Feed Development Guidelines
 =====================================
 
-__Version 1.0: Last Updated 5/5/14__
+__Version 1.0: Last Updated 5/12/14__
 
 
 PREFACE
@@ -180,7 +180,18 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ListPrice</td>
     <td>Integer</td>
-    <td><p>Unformatted numerical list price for the property.</p><p>commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.</p><p>The currencyPeriod attribute is only expected for rental properites and contains either the value "Daily", "Weekly" or "Monthly" to indicate that a rental price is repeated at the frequency indicated. The abscence of the attribute indicates a one-time payment and the attribute is not expected for listings for sale.</p><p>If a rental currencyPeriod is set to "Monthly", it is considered a residential long term rental. If the listing is a rental and currencyPeriod is set to either "Daily" or "Weekly", it is considered a Vacation Rental.</p></td>
+    <td>
+      <p>Unformatted numerical list price for the property.</p>
+      <p>commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.</p>
+      <p>commons:isgSecurityClass can be used to hide price from public display. Allowed values are:
+      <ul>
+        <li><strong>Public</strong> - Default assumed value. Will display price on LuxuryRealEstate.com.</li>
+        <li><strong>Confidential</strong> - Use to hide price from display on LuxuryRealEstate.com.</li>
+      </ul>
+      </p>
+      <p>The currencyPeriod attribute is only expected for rental properites and contains either the value "Daily", "Weekly" or "Monthly" to indicate that a rental price is repeated at the frequency indicated. The abscence of the attribute indicates a one-time payment and the attribute is not expected for listings for sale.</p>
+      <p>If a rental currencyPeriod is set to "Monthly", it is considered a residential long term rental. If the listing is a rental and currencyPeriod is set to either "Daily" or "Weekly", it is considered a Vacation Rental.</p>
+    </td>
   </tr>
   <tr>
     <td>ListingURL</td>
