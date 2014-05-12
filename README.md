@@ -167,8 +167,8 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <DetailedCharacteristics>
         See documentation for DetailedCharacteristics element.
       </DetailedCharacteristics>
-      <ModificationTimestamp commons:isgSecurityClass="Public">2013-12-12T06:07:05+00:00</ModificationTimestamp>
-      <Disclaimer commons:isgSecurityClass="Public">Copyright 2013 Springfield Real Estate, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.</Disclaimer>
+      <ModificationTimestamp>2013-12-12T06:07:05+00:00</ModificationTimestamp>
+      <Disclaimer>Copyright 2013 Springfield Real Estate, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.</Disclaimer>
     </Listing>
 
 <table width="100%">
@@ -624,9 +624,9 @@ Contained exactly once by &lt;Listing&gt;, &lt;Brokerage&gt; and &lt;Office&gt;.
 Contained exactly once by &lt;Listing&gt;.
 
     <MarketingInformation>
-      <commons:VOWAddressDisplay commons:isgSecurityClass="Public">true</commons:VOWAddressDisplay>
-      <commons:VOWAutomatedValuationDisplay commons:isgSecurityClass="Public">true</commons:VOWAutomatedValuationDisplay>
-      <commons:VOWConsumerComment commons:isgSecurityClass="Public">true</commons:VOWConsumerComment>
+      <commons:VOWAddressDisplay>true</commons:VOWAddressDisplay>
+      <commons:VOWAutomatedValuationDisplay>true</commons:VOWAutomatedValuationDisplay>
+      <commons:VOWConsumerComment>true</commons:VOWConsumerComment>
     </MarketingInformation>
 
 <table width="100%">
@@ -667,7 +667,7 @@ Contained exactly once by &lt;Listing&gt;.
 Contained one or many times by &lt;Photos&gt;.
 
     <Photo>
-      <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+      <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
       <MediaURL>http://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png</MediaURL>
       <MediaCaption>Wine cellar fits 1,500 bottles.</MediaCaption>
       <MediaDescription>Wine Cellar</MediaDescription>
@@ -746,7 +746,7 @@ Contained exactly once by &lt;Listing&gt;.
 Contained one or many times by &lt;VirtualTours&gt;.
 
     <VirtualTour>
-      <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+      <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
       <MediaURL>http://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png</MediaURL>
     </VirtualTour>
 
@@ -1119,31 +1119,31 @@ CHAPTER 3 – Sample XML Feed
         <ListingCategory>Purchase</ListingCategory>
         <ListingStatus>Active</ListingStatus>
         <MarketingInformation>
-          <commons:VOWAddressDisplay commons:isgSecurityClass="Public">true</commons:VOWAddressDisplay>
-          <commons:VOWAutomatedValuationDisplay commons:isgSecurityClass="Public">true</commons:VOWAutomatedValuationDisplay>
-          <commons:VOWConsumerComment commons:isgSecurityClass="Public">true</commons:VOWConsumerComment>
+          <commons:VOWAddressDisplay>true</commons:VOWAddressDisplay>
+          <commons:VOWAutomatedValuationDisplay>true</commons:VOWAutomatedValuationDisplay>
+          <commons:VOWConsumerComment>true</commons:VOWConsumerComment>
         </MarketingInformation>
         <Photos>
           <Photo>
-            <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+            <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://upload.wikimedia.org/wikipedia/en/c/ca/742_Evergreen_Terrace.png</MediaURL>
             <MediaCaption>Exterior showing overview.</MediaCaption>
             <MediaDescription>Exterior</MediaDescription>
           </Photo>
           <Photo>
-            <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+            <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://www.blogcdn.com/www.parentdish.co.uk/media/2011/05/parentdish-best-dads-homer-simpson-rex-590mt200511.jpg</MediaURL>
             <MediaCaption>Perfect couch for watching fottball.</MediaCaption>
             <MediaDescription>Living Room</MediaDescription>
           </Photo>
           <Photo>
-            <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+            <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://i.dailymail.co.uk/i/pix/2013/12/21/article-2527254-1A3BFD0A00000578-904_634x377.jpg</MediaURL>
             <MediaCaption>Ideal space for family time.</MediaCaption>
             <MediaDescription>Living Room</MediaDescription>
           </Photo>
           <Photo>
-            <MediaModificationTimestamp commons:isgSecurityClass="Public">2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
+            <MediaModificationTimestamp>2013-08-27T09:06:50+00:00</MediaModificationTimestamp>
             <MediaURL>http://stuffpoint.com/the-simpsons/image/312601-the-simpsons-simpsons-house-interior.jpg</MediaURL>
             <MediaCaption>Overview of floor plan.</MediaCaption>
             <MediaDescription>Floor Plan</MediaDescription>
@@ -1176,7 +1176,7 @@ CHAPTER 3 – Sample XML Feed
         </ListingParticipants>
         <VirtualTours>
           <VirtualTour>
-            <MediaModificationTimestamp commons:isgSecurityClass="Public"/>
+            <MediaModificationTimestamp/>
             <MediaURL>http://www.youtube.com/watch?v=IL2WHdRwlJ4</MediaURL>
           </VirtualTour>
         </VirtualTours>
@@ -1249,7 +1249,7 @@ CHAPTER 3 – Sample XML Feed
             <ViewType>Golf Course</ViewType>
           </ViewTypes>
         </DetailedCharacteristics>
-        <ModificationTimestamp commons:isgSecurityClass="Public">2013-12-12T06:07:05+00:00</ModificationTimestamp>
-        <Disclaimer commons:isgSecurityClass="Public">Copyright 2013 Springfield Real Estate, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.</Disclaimer>
+        <ModificationTimestamp>2013-12-12T06:07:05+00:00</ModificationTimestamp>
+        <Disclaimer>Copyright 2013 Springfield Real Estate, Inc. All rights reserved. All information provided by the listing agent/broker is deemed reliable but is not guaranteed and should be independently verified.</Disclaimer>
       </Listing>
     </Listings>
