@@ -254,10 +254,10 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
         <li>Rental</li>
         <li>Residential</li>        
       </ul>
+      <p>In order to specify that the listing comes fully furnished, populate otherDescription with "Furnished":</p>
+      <p><pre>&lt;PropertyType otherDescription="Furnished"&gt;Rental&lt;/PropertyType&gt;</pre></p>
+      <p>This will mostly affect Rental, however can be applied to any PropertyType.</p>
     </td>
-    <p>In order to specify that the listing comes fully furnished, populate otherDescription with "Furnished":</p>
-    <p><pre>&lt;PropertyType otherDescription="Furnished"&gt;Rental&lt;/PropertyType&gt;</pre></p>
-    <p>This will mostly affect Rental, however can be applied to any PropertyType.</p>
   </tr>
   <tr>
     <td>PropertySubType</td>
