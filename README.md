@@ -405,6 +405,9 @@ Contained exactly once by &lt;Listing&gt;.
       <Appliances>
         See documentation for Appliances element.
       </Appliances>
+      <CoolingSystems>
+        See documentation for CoolingSystems element.
+      </CoolingSystems>
       <HasAttic>true</HasAttic>
       <HasBarbecueArea>true</HasBarbecueArea>
       <HasDeck>true</HasDeck>
@@ -634,6 +637,38 @@ Contained exactly once by &lt;Listing&gt;, &lt;Brokerage&gt; and &lt;Office&gt;.
     <td>commons:Country</td>
     <td>String</td>
     <td>Two digit country code as specified by <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO-3166-1 Alpha-2</td>.
+  </tr>
+</table>
+
+###&lt;CoolingSystems&gt;
+
+Contained exactly once by &lt;DetailedCharacteristics&gt;.
+
+    <CoolingSystems>
+      <CoolingSystem>Attic Fan</CoolingSystem>
+      <CoolingSystem>Ceiling Fan(s)</CoolingSystem>
+      <CoolingSystem>Central A/C</CoolingSystem>
+    </CoolingSystems>
+
+<table width="100%">
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td valign="top">CoolingSystem</td>
+    <td valign="top">String</td>
+    <td valign="top">
+      The CoolingSystem element repeats and must contain one of following values:
+
+      <ul>
+        <li>Attic Fan</li>
+        <li>Ceiling Fan(s)</li>
+        <li>Central A/C</li>
+      </ul>
+
+    </td>
   </tr>
 </table>
 
@@ -1285,6 +1320,11 @@ CHAPTER 3 – Sample XML Feed
             <Appliance>Oven</Appliance>
             <Appliance>Range</Appliance>
           </Appliances>
+          <CoolingSystems>
+            <CoolingSystem>Attic Fan</CoolingSystem>
+            <CoolingSystem>Ceiling Fan(s)</CoolingSystem>
+            <CoolingSystem>Central A/C</CoolingSystem>
+          </CoolingSystems>
           <HasAttic>true</HasAttic>
           <HasBarbecueArea>true</HasBarbecueArea>
           <HasDeck>true</HasDeck>
