@@ -420,6 +420,9 @@ Contained exactly once by &lt;Listing&gt;.
       <HasSportsCourt>true</HasSportsCourt>
       <HasWetBar>true</HasWetBar>
       <IsWaterfront>true</IsWaterfront>
+      <ParkingTypes>
+        See documentation for ParkingTypes
+      </ParkingTypes>
       <ViewTypes>
         See documentation for ViewTypes
       </ViewTypes>
@@ -1047,6 +1050,36 @@ Contained exactly once by &lt;Listing&gt;.
     <td>Name of the neighborhood the listings is in. This value can contain the name of an island, burrough or similar where the listing is located in a geographical area that doesn't fit to include elsewhere.</td>
   </tr>
 </table>
+
+
+###&lt;ParkingTypes&gt;
+
+Contained exactly once by &lt;DetailedCharacteristics&gt;.
+
+    <ParkingTypes>
+      <ParkingType>Garage</ParkingType>
+    </ParkingTypes>
+
+<table width="100%">
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td valign="top">ParkingType</td>
+    <td valign="top">String</td>
+    <td valign="top">
+      The ParkingType element repeats and must contain one of following values:
+
+      <ul>
+        <li>Garage</li>
+      </ul>
+            
+    </td>
+  </tr>
+</table>
+
 
 
 ###&lt;ViewTypes&gt;
