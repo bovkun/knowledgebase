@@ -1,7 +1,7 @@
 LUXRE XML Feed Development Guidelines
 =====================================
 
-__Version 1.0: Last Updated 5/12/14__
+__Version 1.0: Last Updated 6/9/14__
 
 
 PREFACE
@@ -447,9 +447,24 @@ Contained exactly once by &lt;Listing&gt;.
     <td><code>true</code> or <code>false</code> to state if the property has one or more decks.</td>
   </tr>
   <tr>
+    <td>HasDoorman</td>
+    <td>Boolean</td>
+    <td><code>true</code> or <code>false</code> to state if the property has a doorman or concierge.</td>
+  </tr>
+  <tr>
     <td>HasDock</td>
     <td>Boolean</td>
     <td><code>true</code> or <code>false</code> to state if the property has one or more docks.</td>
+  </tr>
+  <tr>
+    <td>HasElevator</td>
+    <td>Boolean</td>
+    <td><code>true</code> or <code>false</code> to state if the property has one or more elevators.</td>
+  </tr>
+  <tr>
+    <td>HasGarden</td>
+    <td>Boolean</td>
+    <td><code>true</code> or <code>false</code> to state if the property has a garden.</td>
   </tr>
   <tr>
     <td>HasPatio</td>
