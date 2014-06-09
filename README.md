@@ -128,7 +128,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <LeadRoutingEmail>listingagent@realestatesite.com</LeadRoutingEmail>
       <Bedrooms>3</Bedrooms>
       <Bathrooms>2</Bathrooms>
-      <PropertyType otherDescription="Residential">Residential</PropertyType>
+      <PropertyType>Residential</PropertyType>
       <PropertySubType otherDescription="Chateau">Other</PropertySubType>
       <MlsNumber>123456789</MlsNumber>
       <ListingCategory>Purchase</ListingCategory>
@@ -255,6 +255,9 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
         <li>Residential</li>        
       </ul>
     </td>
+    <p>In order to specify that the listing comes fully furnished, populate otherDescription with "Furnished":</p>
+    <p><pre>&lt;PropertyType otherDescription="Furnished"&gt;Rental&lt;/PropertyType&gt;</pre></p>
+    <p>This will mostly affect Rental, however can be applied to any PropertyType.</p>
   </tr>
   <tr>
     <td>PropertySubType</td>
