@@ -1289,8 +1289,14 @@ CHAPTER 3 – Sample XML Feed
           <HasBarbecueArea>true</HasBarbecueArea>
           <HasDeck>true</HasDeck>
           <HasDock>true</HasDock>
+          <HasDoorman>true</HasDoorman>
+          <HasElevator>true</HasElevator>
+          <HasGarden>true</HasGarden>
           <HasPatio>true</HasPatio>
           <HasSkylight>true</HasSkylight>
+          <ParkingTypes>
+            <ParkingType>Garage</ParkingType>
+          </ParkingTypes>
           <ViewTypes>
             <ViewType>Water</ViewType>
             <ViewType>Ocean</ViewType>
