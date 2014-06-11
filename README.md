@@ -94,7 +94,7 @@ When an XML element is parsed, all of the text within the XML tags is also parse
       <strong>Without CDATA</strong><br />&lt;Example&gt;Brokers &amp;amp; Agents&lt;/Example&gt;
     </p>
     <p>
-      <strong>With CDATA</strong><br />&lt;Example&gt;&lt;![CDATA[Brokers &amp;amp; Agents]]&gt;&lt;/Example&gt;
+      <strong>With CDATA</strong><br />&lt;Example&gt;&lt;![CDATA[Brokers &amp; Agents]]&gt;&lt;/Example&gt;
     </p>
   </td></tr>
 </table>
