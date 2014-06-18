@@ -364,8 +364,8 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   </tr>
   <tr>
     <td>ListingTitle</td>
-    <td>String</td>
-    <td>A short title for the listing (80 characters max).</td>
+    <td>String(80)</td>
+    <td>A short title for the listing.  A title longer than 80 characters will be truncated with an ellipse.</td>
   </tr>
   <tr>
     <td>FullBathrooms</td>
