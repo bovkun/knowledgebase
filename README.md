@@ -839,7 +839,6 @@ Contained exactly once by &lt;Listing&gt;.
 Contained once or twice by &lt;ListingParticipants&gt;.
 
     <Participant>
-      <ParticipantKey>OURPREFIX-AG123123</ParticipantKey>
       <ParticipantId>AG123123</ParticipantId>
       <FirstName>Gil</FirstName>
       <LastName>Gunderson</LastName>
@@ -855,11 +854,6 @@ Contained once or twice by &lt;ListingParticipants&gt;.
     <th>Name</th>
     <th>Type</th>
     <th>Description</th>
-  </tr>
-  <tr>
-    <td>ParticipantKey</td>
-    <td>String</td>
-    <td>Compound value made up from your unique LUXRE account token, a dash, and the value from ParticipantId. Inquire with websupport@luxre.com if you don't know what your unique LUXRE token is.</td>
   </tr>
   <tr>
     <td>ParticipantId</td>
@@ -1249,7 +1243,6 @@ CHAPTER 3 – Sample XML Feed
         <PartialBathrooms>1</PartialBathrooms>
         <ListingParticipants>
           <Participant>
-            <ParticipantKey>OURPREFIX-AG123123</ParticipantKey>
             <ParticipantId>AG123123</ParticipantId>
             <FirstName>Gil</FirstName>
             <LastName>Gunderson</LastName>
