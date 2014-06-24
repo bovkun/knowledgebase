@@ -7,7 +7,7 @@ __Version 1.0: Last Updated 6/9/14__
 PREFACE
 -------
 
-This document defines the XML syntax required by LuxuryRealEstate.com for automatic submission of listings.
+This document defines the XML syntax required by LuxuryRealEstate.com for the automatic submission of listings.
 
 __Intended Audience__
 
