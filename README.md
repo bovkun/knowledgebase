@@ -7,7 +7,7 @@ __Version 1.0: Last Updated 6/9/14__
 PREFACE
 -------
 
-This document defines the XML syntax required by LuxuryRealEstate.com for automatic submission of listings.
+This document defines the XML syntax required by LuxuryRealEstate.com for the automatic submission of listings.
 
 __Intended Audience__
 
@@ -35,6 +35,7 @@ __Basic Guidelines__
 + Do not include quotations around values (for example `<ListingTitle>”Amazing city view”</ListingTitle>`) 
 + Include open and close tags for all nodes, and use proper indentation for parent/child tags. 
 + Do not include HTML tags and do not include line breaks in the fields. 
++ THE XML MUST CONTAIN FIELDS MARKED REQUIRED
 
 __Real Estate Standards Organization Syndication Format__
 
@@ -42,7 +43,7 @@ Syndication of listings to a wide variety of listing portals, such as Google, Ya
 
 The format that LuxuryRealEstate.com accepts adheres to the RETS Syndication Format (not to be confused with RETS data feeds or servers) however it is a strict subset of the RETS standard. This means that if you implement the full RESO standard, it is valid to submit to LuxuryRealEstate.com, however only the elements defined in this document will be imported.
 
-For more information on the RETS Syndication standard please visit the syndication workgroup website.
+For more information on the RETS    Syndication standard please visit the syndication workgroup website.
 
 [http://www.reso.org/schemas-for-syndication](http://www.reso.org/schemas-for-syndication)
 
@@ -181,6 +182,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>ListPrice</td>
     <td>Integer</td>
     <td>
+      <p>REQUIRED</p>
       <p>Unformatted numerical list price for the property.</p>
       <p>commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.</p>
       <p>commons:isgSecurityClass can be used to hide price from public display. Allowed values are:
@@ -296,17 +298,25 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>MlsNumber</td>
     <td>String</td>
-    <td>In the US and Canada, it is the listing MLS number. In any other country or in markets witout an MLS, it is a unique listing identifier that you have given it that the listing will consistently have on each submission.</td>
+    <td>
+      <p>REQUIRED</p>
+      <p>In the US and Canada, it is the listing MLS number. In any other country or in markets witout an MLS, it is a unique listing identifier that you have given it that the listing will consistently have on each submission.</p>
+    </td>
   </tr>
   <tr>
     <td>ListingCategory</td>
     <td>String</td>
-    <td>One of "Purchase", "Lease" and "Rent".</td>
+    <td>
+      <p>REQUIRED</p>
+      <p>One of "Purchase", "Lease" and "Rent".</p>
+    </td>
   </tr>
   <tr>
     <td>ListingStatus</td>
     <td>String</td>
-    <td>Must be one of:
+    <td>
+      <p>REQUIRED</p>
+      <p>Must be one of:</p>
       <ul>
         <li>Active</li>
         <li>Cancelled</li>
@@ -390,7 +400,10 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ModificationTimestamp</td>
     <td>Timestamp</td>
-    <td>That most recent timestamp that information about this listing changed within the originating data source. This is used to determine if the information for a listing already present on LuxuryRealEstate.com needs updating.</td>
+    <td>
+      <p>REQUIRED</p>
+      <p>That most recent timestamp that information about this listing changed within the originating data source. This is used to determine if the information for a listing already present on LuxuryRealEstate.com needs updating.</p>
+    </td>
   </tr>
   <tr>
     <td>Disclaimer</td>
@@ -639,7 +652,10 @@ Contained exactly once by &lt;Listing&gt;, &lt;Brokerage&gt; and &lt;Office&gt;.
   <tr>
     <td>commons:Country</td>
     <td>String</td>
-    <td>Two digit country code as specified by <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO-3166-1 Alpha-2</td>.
+    <td>
+      <p>REQUIRED</p>
+      <p>Two digit country code as specified by <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO-3166-1 Alpha-2</p>
+    </td>.
   </tr>
 </table>
 
@@ -940,7 +956,10 @@ Contained exactly once by &lt;Offices&gt;.
   <tr>
     <td>OfficeId</td>
     <td>String</td>
-    <td>A value that uniquely identifies the office within your LUXRE account. For US based companies, this is the office MLS ID. For other countries, it can be any unqiue string as long as it is consistenly used for the particular office, and as long as it's used only for the particular office. This value must also be assigned to the corresponding office's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the office profile on LuxuryRealEstate.com.</td>
+    <td>
+      <p>REQUIRED</p>
+      <p>A value that uniquely identifies the office within your LUXRE account. For US based companies, this is the office MLS ID. For other countries, it can be any unqiue string as long as it is consistenly used for the particular office, and as long as it's used only for the particular office. This value must also be assigned to the corresponding office's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the office profile on LuxuryRealEstate.com.</p>
+   </td>
   </tr>
   <tr>
     <td>Name</td>
