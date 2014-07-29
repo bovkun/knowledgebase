@@ -213,7 +213,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ProviderCategory</td>
     <td>String</td>
-    <td>The type of the entity that authorized the listing to be syndicated. Must have one of these values:
+    <td>The type of the entity that authorized the listing to be syndicated. Must be one of these values:
       <ul>
         <li>Aggregator</li>
         <li>Broker</li>
