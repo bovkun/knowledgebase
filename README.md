@@ -182,7 +182,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>ListPrice</td>
     <td>Integer</td>
     <td>
-      <p><b>REQUIRED</b></p>
+      <p><strong>REQUIRED</strong></p>
       <p>Unformatted numerical list price for the property.</p>
       <p>commons:currencyCode is used to state the currency used. Currency is a three letter currency code as defined by <a href="http://en.wikipedia.org/wiki/ISO_4217" target="_blank">ISO 4217</a>.</p>
       <p>commons:isgSecurityClass can be used to hide price from public display. Allowed values are:
@@ -213,7 +213,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ProviderCategory</td>
     <td>String</td>
-    <td>The type of the entity that authorized the listing to be syndicated. Must contain one of these values:
+    <td>The type of the entity that authorized the listing to be syndicated. Must have one of these values:
       <ul>
         <li>Aggregator</li>
         <li>Broker</li>
@@ -245,7 +245,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>PropertyType</td>
     <td>String</td>
-    <td>Primary type of the listed property. Must have one of these values:
+    <td>Primary type of the listed property. Must be one of these values:
       <ul>
         <li>Commercial</li>
         <li>Common Interest</li>	
@@ -264,7 +264,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>PropertySubType</td>
     <td>String</td>
-    <td>Secondary type of the listed property. Must have one of these values:
+    <td>Secondary type of the listed property. Must be one of these values:
       <ul>
         <li>Apartment</li>
         <li>Boatslip</li>
@@ -299,7 +299,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>MlsNumber</td>
     <td>String</td>
     <td>
-      <p><b>REQUIRED</b></p>
+      <p><strong>REQUIRED</strong></p>
       <p>In the US and Canada, it is the listing MLS number. In any other country or in markets witout an MLS, it is a unique listing identifier that you have given it that the listing will consistently have on each submission.</p>
     </td>
   </tr>
@@ -307,16 +307,21 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>ListingCategory</td>
     <td>String</td>
     <td>
-      <p><b>REQUIRED</b></p>
-      <p>One of "Purchase", "Lease" and "Rent".</p>
+      <p><strong>REQUIRED</strong></p>
+      <p>Must be one of these values:</p>
+      <ul>
+        <li>Purchase</li>
+        <li>Lease</li>
+        <li>Rent</li>
+      </ul>
     </td>
   </tr>
   <tr>
     <td>ListingStatus</td>
     <td>String</td>
     <td>
-      <p>REQUIRED</p>
-      <p>Must be one of:</p>
+      <p><strong>REQUIRED</strong></p>
+      <p>Must be one of these values:</p>
       <ul>
         <li>Active</li>
         <li>Cancelled</li>
@@ -335,7 +340,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>LivingArea</td>
     <td>Integer</td>
-    <td>Unformatted number with total livable area of the listed property. Attribute areaUnits must be one of following values:
+    <td>Unformatted number with total livable area of the listed property. Attribute areaUnits must be one of these values:
       <ul>
         <li>acre</li>
         <li>hectare</li>
@@ -350,7 +355,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>LotSize</td>
     <td>Integer</td>
-    <td>Unformatted number with size of the lot of the listed property. Attribute areaUnit must be one of following values:
+    <td>Unformatted number with size of the lot of the listed property. Attribute areaUnit must be one of these values:
       <ul>
         <li>acre</li>
         <li>hectare</li>
@@ -401,7 +406,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>ModificationTimestamp</td>
     <td>Timestamp</td>
     <td>
-      <p><b>REQUIRED</b></p>
+      <p><strong>REQUIRED</strong></p>
       <p>That most recent timestamp that information about this listing changed within the originating data source. This is used to determine if the information for a listing already present on LuxuryRealEstate.com needs updating.</p>
     </td>
   </tr>
@@ -568,7 +573,7 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
     <td valign="top">Appliance</td>
     <td valign="top">String</td>
     <td valign="top">
-      The Appliance element repeats and must contain one of following values:
+      The Appliance element repeats and must be one of these values:
 
       <ul>
         <li>Barbeque or Grill</li>
@@ -653,7 +658,7 @@ Contained exactly once by &lt;Listing&gt;, &lt;Brokerage&gt; and &lt;Office&gt;.
     <td>commons:Country</td>
     <td>String</td>
     <td>
-      <p><b>REQUIRED</b></p>
+      <p><strong>REQUIRED</strong></p>
       <p>Two digit country code as specified by <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO-3166-1 Alpha-2</p>
     </td>.
   </tr>
@@ -679,14 +684,12 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
     <td valign="top">CoolingSystem</td>
     <td valign="top">String</td>
     <td valign="top">
-      The CoolingSystem element repeats and must contain one of following values:
-
+    <p>The CoolingSystem element repeats and must be one of these values:</p>
       <ul>
         <li>Attic Fan</li>
         <li>Ceiling Fan(s)</li>
         <li>Central A/C</li>
       </ul>
-
     </td>
   </tr>
 </table>
@@ -957,7 +960,7 @@ Contained exactly once by &lt;Offices&gt;.
     <td>OfficeId</td>
     <td>String</td>
     <td>
-      <p><b>REQUIRED</b></p>
+      <p><strong>REQUIRED</strong></p>
       <p>A value that uniquely identifies the office within your LUXRE account. For US based companies, this is the office MLS ID. For other countries, it can be any unqiue string as long as it is consistenly used for the particular office, and as long as it's used only for the particular office. This value must also be assigned to the corresponding office's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the office profile on LuxuryRealEstate.com.</p>
    </td>
   </tr>
@@ -1121,17 +1124,13 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
     <td valign="top">ParkingType</td>
     <td valign="top">String</td>
     <td valign="top">
-      The ParkingType element repeats and must contain one of following values:
-
+    <p>The ParkingType element repeats and must be one of these values:</p>
       <ul>
         <li>Garage</li>
       </ul>
-            
     </td>
   </tr>
 </table>
-
-
 
 ###&lt;ViewTypes&gt;
 
@@ -1153,8 +1152,7 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
     <td valign="top">ViewType</td>
     <td valign="top">String</td>
     <td valign="top">
-      The ViewType element repeats and must contain one of following values:
-
+      <p>The ViewType element repeats and must be one of these values:</p>
       <ul>
         <li>Airport</li>
         <li>Average</li>
@@ -1183,12 +1181,9 @@ Contained exactly once by &lt;DetailedCharacteristics&gt;.
         <li>Vista</li>
         <li>Water</li>
       </ul>
-            
     </td>
   </tr>
 </table>
-
-
 
 CHAPTER 3 – Sample XML Feed
 ---------------------------
