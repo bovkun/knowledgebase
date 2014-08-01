@@ -407,7 +407,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
     <td>Timestamp</td>
     <td>
       <p><strong>REQUIRED</strong></p>
-      <p>That most recent timestamp that information about this listing changed within the originating data source. This is used to determine if the information for a listing already present on LuxuryRealEstate.com needs updating.</p>
+      <p>The most recent timestamp that information about this listing changed within the originating data source. This is used to determine if the information for a listing already present on LuxuryRealEstate.com needs updating.</p>
     </td>
   </tr>
   <tr>
