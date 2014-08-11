@@ -380,7 +380,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>ListingTitle</td>
     <td>String(80)</td>
-    <td>A short title for the listing.  A title longer than 80 characters will be truncated with an ellipse.</td>
+    <td>A short title for the listing.</td>
   </tr>
   <tr>
     <td>FullBathrooms</td>
