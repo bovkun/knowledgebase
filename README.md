@@ -877,7 +877,7 @@ Contained once or twice by &lt;ListingParticipants&gt;.
   <tr>
     <td>ParticipantId</td>
     <td>String</td>
-    <td>A value that uniquely identifies the listing agent within your LUXRE account. For US based listing agents, this is the agent's agent MLS ID. For other countries, it can be any unqiue string as long as it is consistenly used for the particular agent, and as long as it's used only for the particular agent. This value must also be assigned to the corresponding agent's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the agent profile on LuxuryRealEstate.com.</td>
+    <td>A value that uniquely identifies the listing agent within your LUXRE account. For US based listing agents, this is the agent's agent MLS ID. For other countries, it can be any unique string as long as it is consistently used for the particular agent, and as long as it's used only for that particular agent. This value must also be assigned to the corresponding agent's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the agent profile on LuxuryRealEstate.com.</td>
   </tr>
   <tr>
     <td>FirstName</td>
@@ -961,7 +961,7 @@ Contained exactly once by &lt;Offices&gt;.
     <td>String</td>
     <td>
       <p><strong>REQUIRED</strong></p>
-      <p>A value that uniquely identifies the office within your LUXRE account. For US based companies, this is the office MLS ID. For other countries, it can be any unqiue string as long as it is consistenly used for the particular office, and as long as it's used only for the particular office. This value must also be assigned to the corresponding office's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the office profile on LuxuryRealEstate.com.</p>
+      <p>A value that uniquely identifies the office within your LUXRE account. For US based companies, this is the office MLS ID. For other countries, it can be any unique string as long as it is consistently used for the particular office, and as long as it's used only for that particular office. This value must also be assigned to the corresponding office's LUXRE profile in the Luxury Lounge in order for the listing to get correctly associated with the office profile on LuxuryRealEstate.com.</p>
    </td>
   </tr>
   <tr>
