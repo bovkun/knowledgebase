@@ -147,6 +147,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <ListingDate>1989-12-17</ListingDate>
       <ListingTitle>Very Lovely Home</ListingTitle>
       <FullBathrooms>1</FullBathrooms>
+      <ThreeQuarterBathrooms>2</ThreeQuarterBathrooms>
       <HalfBathrooms>1</HalfBathrooms>
       <OneQuarterBathrooms>0</OneQuarterBathrooms>
       <PartialBathrooms>1</PartialBathrooms>
@@ -386,7 +387,12 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
   <tr>
     <td>FullBathrooms</td>
     <td>Integer</td>
-    <td>A total count for the full bathrooms on the property. Full bath generally includes sink, toilet, shower and bath, but may have other local definitions.</td>
+    <td>A total count for the full bathrooms on the property. Full bathrooms generally include a sink, toilet, shower and bath, but may have other local definitions.</td>
+  </tr>
+  <tr>
+    <td>ThreeQuarterBathrooms</td>
+    <td>Integer</td>
+    <td>A total count for the three-quarter bathrooms on the property. Three-quarter bathrooms generally include a sink, toilet, and shower with no bathtub, but may have other local definitions.</td>
   </tr>
   <tr>
     <td>HalfBathrooms</td>
@@ -1252,6 +1258,7 @@ CHAPTER 3 – Sample XML Feed
         <ListingDate>1989-12-17</ListingDate>
         <ListingTitle>Very Lovely Home</ListingTitle>
         <FullBathrooms>1</FullBathrooms>
+        <ThreeQuarterBathrooms>2</ThreeQuarterBathrooms>
         <HalfBathrooms>1</HalfBathrooms>
         <OneQuarterBathrooms>0</OneQuarterBathrooms>
         <PartialBathrooms>1</PartialBathrooms>
