@@ -259,6 +259,7 @@ Contained once or many times by &lt;Listings&gt;, each time representing a Listi
       <p>In order to specify that the listing comes fully furnished, populate otherDescription with "Furnished":</p>
       <p><pre>&lt;PropertyType otherDescription="Furnished"&gt;Rental&lt;/PropertyType&gt;</pre></p>
       <p>This will mostly affect Rental, however can be applied to any PropertyType.</p>
+      <p>If omitted this will default to 'Residential.'</p>
     </td>
   </tr>
   <tr>
