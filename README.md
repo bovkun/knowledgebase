@@ -17,7 +17,7 @@
 #### [LRE TSV FEED Specification](https://github.com/luxre/knowledgebase/wiki/TSV-Feed-Spec)
 
 ### LRE XML Feed Specification
-#### [LRE XML Feed Specification](https://github.com/luxre/luxre_feed_specification/wiki/XML-Feed-Spec)
+#### [LRE XML Feed Specification](https://github.com/luxre/luxre_feed_specification/wiki/XML-Feed-Development-Specification)
 
 ### Listhub
 #### [Listhub FAQ](https://github.com/luxre/luxre_feed_specification/wiki/Listhub-FAQ)
